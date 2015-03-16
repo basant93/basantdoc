@@ -1,0 +1,34 @@
+client
+
+compile 
+gcc client.c -o client
+
+run 
+./client 30006
+
+second argument is port no. which is given a value > 20000
+
+
+server2.c
+
+compile
+gcc server2.c -o server2
+
+run
+./server2 127.0.0.1 30006
+
+2nd is host ip address . it is  127.0.0.1 if client and server are runnning on same machine
+else it should be ip of machine on which server is hosted
+
+3rd arg is port no to which server will be lisening
+
+it can accept multiple client . just run the server once and go on running multiple client
+
+
+Steps
+
+run server2.c 
+then client.c
+
+
+ 
